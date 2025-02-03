@@ -1,0 +1,63 @@
+{
+    "login": {
+        "message": "Kirjaudu Sisään",
+        "email": "Sähköposti",
+        "password": "Salasana",
+        "stay_loggedIn": "Pysy sisäänkirjautuneena?",
+        "make_user": "Tee käyttäjä",
+        "new_user": "Uusi Käyttäjä"
+    },
+    "navBar": {
+        "frontpage": "Etusivu"
+    },
+    "menu": {
+        "coffee": "Kahvi",
+        "tea": "Teet",
+        "pastry": "Leivokset",
+        "sandwich": "Voileivät",
+        "icecream": "Jäätelöt",
+        "drinks":"Juomat",
+        "hot_drinks":"Kuumat juomat",
+        "pastries": "Leivonnaiset",
+        "refreshing":"Virkistävät",
+        "products" : "Tuotteet"
+    },
+    "AU":{
+        "aboutUS":"Meistä",
+        "story": "Tarinamme",
+        "employee": "Henkilökuntamme",
+        "info": "Yhteystiedot",
+        "welcome": "Tervetuloa maistamaan erinomaista kahviamme",
+        "follow": "Seuraa meitä"
+    },
+    "IMG":{
+        "first": "Ilahduta ystävää lahjakortilla",
+        "second": "Testaa uutta kahviamme",
+        "third": "Ota hyöty tarjouksista"
+    },
+    "story":{
+        "our_story": "Tarinamme",
+        "born": "Miten Coffee Shop syntyi",
+        "first_shop": "Ensimmäinen Coffee Shop"
+    },
+    "employees": {
+        "emps": "Henkilökuntamme",
+        "emp1": "Työntekijä 1",
+        "emp2": "Työntekijä 2",
+        "emp3": "Työntekijä 3"
+    },
+    "contact": {
+        "contact_info": "Yhteystiedot",
+        "address": "Osoite:",
+        "tel": "Puh.",
+        "email": "Sähköposti:"
+    },
+    "cart": {
+        "cart": "Ostoskori",
+        "cart_empty": "Ostoskorisi on tyhjä!",
+        "cart_continue": "Jatka Ostoksia",
+        "cart_welcome": "Tervetuloa kahvin maailmaan ☕",
+        "cart_buy": "Osta",
+        "cart_total": "Yhteensä"
+    }
+}

@@ -1,0 +1,115 @@
+
+.cards{
+    margin-top: 50px;
+    padding: 0;
+    background-color: #886c56;
+    height: 650px;
+    width: 550px;
+    border-radius: 35px;
+}
+
+.image_box img{
+    padding: 10px;
+    width: 530px;
+    height: 250px;
+    border-radius: 35px;
+}
+
+.card_styling {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    cursor: default;
+}
+
+.card_styling > p {
+    align-content: center;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.sizes{
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.size{
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    color: #433026;
+    font-weight: 800;
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+}
+
+.details > p {
+    text-align: start;
+    padding-left: 20px;
+}
+
+.title-card{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    cursor: default;
+}
+.author{
+    color: white;
+    font-size: 0.8rem;
+    cursor: default;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+    
+}
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #e5ccb2;
+    outline: none;
+}
+
+.add_to_cart {
+   margin-top: 25px;
+   height: 60px;
+   width: 200px;
+   border-radius: 50px;
+   color: white;
+   font-size: 30px;
+}
+
+.add_to_cart:hover{
+    background-color: #0f3f2e;
+    cursor: pointer;
+}
+
+.size_styling {
+    display: flex;
+    justify-content: center;
+}
+
+
+.size_styling > button {
+    height: 50px;
+    margin-right: 5px;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.size_styling > button:hover {
+    background-color: #0f3f2e;
+    cursor: pointer;
+}

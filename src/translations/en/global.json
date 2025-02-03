@@ -1,0 +1,64 @@
+{
+    "login": {
+        "message": "Login",
+        "email": "Email",
+        "password": "Password",
+        "stay_loggedIn": "Stay Signed In?",
+        "login": "Log In",
+        "make_user": "Make an account",
+        "new_user": "A New User"
+    },
+    "navBar": {
+        "frontpage": "Frontpage"
+    },
+    "menu": {
+        "coffee": "Coffee",
+        "tea": "Tea",
+        "pastry": "Pastries",
+        "sandwich": "Sandwiches",
+        "icecream": "Ice Cream",
+        "drinks": "Drinks",
+        "hot_drinks":"Hot drinks",
+        "pastries": "Pastries",
+        "refreshing":"Refreshing",
+        "products" : "Products"
+    },
+    "AU":{
+        "aboutUS":"About Us",
+        "story": "Our Story",
+        "employee": "Employees",
+        "info": "Contact Info",
+        "welcome": "Welcome to taste our excellent coffee",
+        "follow": "Follow us"
+    },
+    "IMG":{
+        "first": "Delight a friend with a gift card",
+        "second": "Test our new coffee",
+        "third": "Take advantage of the offers"
+    },
+    "story":{
+        "our_story": "Our Story",
+        "born": "How was Coffee Shop born",
+        "first_shop": "First Coffee Shop"
+    },
+    "employees": {
+        "emps": "Employees",
+        "emp1": "Employee 1",
+        "emp2": "Employee 2",
+        "emp3": "Employee 3"
+    },
+    "contact": {
+        "contact_info": "Contact Info",
+        "address": "Address:",
+        "tel": "Tel.",
+        "email": "Email:"
+    },
+    "cart": {
+        "cart": "Shopping Cart",
+        "cart_empty": "Your cart is empty!",
+        "cart_continue": "Keep Shopping",
+        "cart_welcome": "Welcome to the world of coffee ☕",
+        "cart_buy": "Buy",
+        "cart_total": "Total Price of your cart"
+    }
+}

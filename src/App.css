@@ -1,0 +1,27 @@
+ 
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #E5CCB2;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.warning{
+  height: 100px;
+  width: 350px;
+  text-align: center;
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  background-color: #0f3f2e;
+  font-size: 1.1rem;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 99999;
+}

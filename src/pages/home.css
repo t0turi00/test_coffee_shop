@@ -1,0 +1,22 @@
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+  
+.bg-content {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: url(../assets/bg-coffeeCup.jpg);
+      background-size: cover;
+      margin-left: 50px;
+      margin-right: 50px;
+}

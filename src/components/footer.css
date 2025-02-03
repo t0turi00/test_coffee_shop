@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+
+.footer-container {
+    background-color: #433026;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-line {
+    margin-top: 10%;
+    height: 10px;
+    width: 95%;
+    background-color: #e5ccb2;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60%;
+}
+
+.item-header {
+    color: white;
+    list-style: none;
+    text-align: start;
+    font-size: 30px;
+    font-family: "Hanken Grotesk", serif;
+}
+
+.item-header a{
+    color: white;
+    list-style: none;
+    text-align: start;
+    font-size: 30px;
+    font-family: "Hanken Grotesk", serif;
+    text-decoration-line: none;
+}
+
+.item-header  p {
+    font-size: 50px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: #e5ccb2;
+    font-family: "Hanken Grotesk", serif;
+}
+
+.item-header  li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.item-header li:hover {
+    color: bisque;
+}
+
+.row li{
+    display: inline;
+}
+
+.row li img {
+    background-color: #886c56;
+    border-radius: 20%;
+}
+
+li img {
+    margin-left: 15px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+li img:hover {
+    filter: invert(41%) sepia(51%) saturate(253%) hue-rotate(344deg) brightness(95%) contrast(89%);
+}
+
+.copyright-container {
+    height: 300px;
+    width: 100%;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.copyright > div {
+    width: fit-content;
+    margin-right: 50px;
+}
+
+.copyright > img {
+    padding-bottom: 20px;
+    height: 50px;
+    width: 50px;
+}

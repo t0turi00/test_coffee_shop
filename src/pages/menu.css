@@ -1,0 +1,15 @@
+.Menu_container {
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.grid_menu_container {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-template-rows: 650px 650px 650px;
+    gap: 20px;
+}

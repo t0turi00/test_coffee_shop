@@ -1,0 +1,55 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+
+.contact-menu-container {
+    margin-top: 150px;
+    background-color: #886c56;
+    width: 80vw;
+    height: fit-content;
+    border-radius: 50px;
+    margin-bottom: 150px;
+}
+
+.contact-img-container{
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-img{
+    width: 900px;
+    height: 900px;
+}
+
+.contact-info {
+    color: white;
+    list-style: none;
+    text-align: start;
+    font-size: 30px;
+    font-family: "Hanken Grotesk", serif;
+    padding-bottom: 60px;
+}
+
+.contact-info  p {
+    font-size: 50px;
+    text-align: center;
+    text-decoration-color: #e5ccb2;
+    font-family: "Hanken Grotesk", serif;
+}
+
+.contact-info li {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+
+.spacer {
+    height: 20px;
+}
+
