@@ -58,13 +58,13 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter  basename="/test_coffee_shop">
+      <HashRouter>
       <ScrollToTop />
       <Header cart={cart}/>
       <Navbar />
       {/*warning && <div className='warning'>{itemPresent} added to your cart</div>*/}
       <Routes>
-        <Route path="/test_coffee_shop" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/account/login" element={<Login />} />
         <Route path="/account/register" element={<Register />} />
         <Route path="/cart" element={<Cart cart={cart} setCart={setCart} handleChange={handleChange}/>}/>
