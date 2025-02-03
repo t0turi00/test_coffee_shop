@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./cards.css"
+import { useTranslation } from "react-i18next";
 
 function Cards({item, handleClick, handleChange}) {
     const { title, author, price, img} = item;
+    const [t, i18n] = useTranslation("global");
     
     return (
     <div className="cards">
@@ -13,15 +15,15 @@ function Cards({item, handleClick, handleChange}) {
             <p className="title-card">{title}</p>
             <p className="author">{author}</p>
             <div className="card_styling">
-                <p>Price - {price}€</p>
+                <p>{t("products.price")} - {price}€</p>
                 <div className="sizes">
-                    <p className="size">Koot</p>
+                    <p className="size">{t("products.size")}</p>
                 <div className="size_styling">
                     <button>S</button>
                     <button>M</button>
                     <button>L</button> 
                 </div>
-                    <button className="add_to_cart" onClick={() => handleClick(item)}>Add to cart</button>
+                    <button className="add_to_cart" onClick={() => handleClick(item)}>{t("products.addToCart")}</button>
                 </div>
                 
             </div>

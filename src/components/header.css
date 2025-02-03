@@ -196,10 +196,12 @@
 
 
 /*1201px and more —  Extra large screens, TV*/
+@media (min-width: 1980px) and (max-width: 2560px){
 
+}
 
 /*1025px — 1200px: Desktops, large screens*/
-@media (min-width: 1025px) and (max-width: 1200px){
+@media (min-width: 1280px) and (max-width: 1920px){
     /*Header*/
 
     .container {
@@ -213,14 +215,16 @@
         padding-bottom: 50px;  
     }
 
+    .button-container {
+       width: fit-content;
+    }
 
     .button-container img {
-        height: 35px;
-        width: 40px;
-        padding-bottom: 5px;
+        height: 45px;
+        width: 50px;
     }
     .button-container button div {
-       font-size: 20px;
+       font-size: 60px;
        padding-bottom: 7px;
     }
 
@@ -242,152 +246,5 @@
     h1{
         font-size: 1.5em;
     }   
-    
-}
-
-
-@media (min-width: 900px) and (max-width: 1025px){
-        h1{
-            font-size: 1.3em;
-        }     
-}
-
-@media (min-width: 800px) and (max-width: 950px){
-    h1{
-        font-size: 1em;
-    }
-
-    .container > img {
-        height: 150px;
-        width: 175px;
-        padding-left: 50px; 
-        padding-bottom: 100px;  
-    }
-
-    
-    .button-container img {
-        height: 35px;
-        width: 40px;
-        padding-bottom: 5px;
-    }
-
-    .FI {
-        margin-left: 1rem;
-        width: 40px;
-        font-size: 30px;
-    }
-
-    .EN {
-        margin-left: 1rem;
-        width: 50px;
-        font-size: 30px;
-        margin-right: 1rem;
-    }
-}
-
-
-@media (min-width: 480px) and (max-width: 800px){
-
-    
-    .container > img {
-        height: 100px;
-        width: 125px;
-        padding-left: 50px; 
-        padding-bottom: 50px;  
-    }
-
-    h1{
-        font-size: 0.7em;
-    }
-
-    .bottom-header-cart {
-        margin-right: 20px;
-        height: 100px;
-        width: 200px;
-        padding-right: 20px;
-    } 
-    
-    .bottom-header-cart > img {
-        height: 55px;
-        width: 55px;
-    }
-
-    .price {
-        font-size: 1rem;
-        text-align: end;
-        color: white;
-        font-weight: 200;
-        padding-top: 2rem;
-        width: 150px;
-    }
-    
-    .item-amount {
-        font-size: 1.5rem;
-        text-align: center;
-        color: white;
-        font-weight: 300;
-        padding-top: 0;
-        padding-bottom: 75px;
-    }
-    
-     .button-container img {
-        height: 35px;
-        width: 40px;
-        padding-bottom: 5px;
-    }
-
-    .FI {
-        margin-left: 1rem;
-        width: 40px;
-        font-size: 30px;
-    }
-
-    .EN {
-        margin-left: 1rem;
-        width: 50px;
-        font-size: 30px;
-        margin-right: 1rem;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 480px){
-    h1{
-        font-size: 0.2em;
-    }
-
-    .bottom-header-cart {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: end;
-        margin-right: 20px;
-        height: 100px;
-        width: 200px;
-        cursor: pointer;
-        padding-right: 20px;
-    } 
-    
-    .bottom-header-cart > img {
-        height: 35px;
-        width: 35px;
-    }
-
-    .price {
-        font-size: 0.5rem;
-        text-align: end;
-        color: white;
-        font-weight: 200;
-        padding-top: 2rem;
-        width: 150px;
-    }
-    
-    .item-amount {
-        font-size: 1rem;
-        text-align: center;
-        color: white;
-        font-weight: 300;
-        padding-top: 0;
-        padding-bottom: 35px;
-    }
     
 }

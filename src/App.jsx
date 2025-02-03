@@ -55,7 +55,6 @@ function App() {
     setCart([...tempArr])
   }
 
-
   return (
     <div className="App">
       <HashRouter>

@@ -60,5 +60,10 @@
         "cart_welcome": "Welcome to the world of coffee ☕",
         "cart_buy": "Buy",
         "cart_total": "Total Price of your cart"
+    },
+    "products":{
+        "price": "Price",
+        "size": "Sizes",
+        "addToCart": "Add to Cart"
     }
 }

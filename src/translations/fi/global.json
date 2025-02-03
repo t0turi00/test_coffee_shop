@@ -59,5 +59,10 @@
         "cart_welcome": "Tervetuloa kahvin maailmaan ☕",
         "cart_buy": "Osta",
         "cart_total": "Yhteensä"
+    },
+    "products":{
+        "price": "Hinta",
+        "size": "Koot",
+        "addToCart": "Lisää koriin"
     }
 }
